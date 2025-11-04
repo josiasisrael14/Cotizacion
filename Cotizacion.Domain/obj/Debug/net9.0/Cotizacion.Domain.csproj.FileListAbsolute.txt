@@ -1,0 +1,11 @@
+C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Domain\bin\Debug\net9.0\Cotizacion.Domain.deps.json
+C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Domain\bin\Debug\net9.0\Cotizacion.Domain.dll
+C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Domain\bin\Debug\net9.0\Cotizacion.Domain.pdb
+C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Domain\obj\Debug\net9.0\Cotizacion.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Domain\obj\Debug\net9.0\Cotizacion.Domain.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Domain\obj\Debug\net9.0\Cotizacion.Domain.AssemblyInfo.cs
+C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Domain\obj\Debug\net9.0\Cotizacion.Domain.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Domain\obj\Debug\net9.0\Cotizacion.Domain.dll
+C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Domain\obj\Debug\net9.0\refint\Cotizacion.Domain.dll
+C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Domain\obj\Debug\net9.0\Cotizacion.Domain.pdb
+C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Domain\obj\Debug\net9.0\ref\Cotizacion.Domain.dll
