@@ -9,4 +9,5 @@ public interface IProformaRepository
     Task<Proforma> AddAsync(Proforma proforma);
     Task UpdateAsync(Proforma proforma);
     Task DeleteAsync(Proforma proforma);
+    
 }

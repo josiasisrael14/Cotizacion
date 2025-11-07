@@ -17,3 +17,4 @@ C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Infrastructure\obj\Debug
 C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Infrastructure\obj\Debug\net9.0\ref\Cotizacion.Infrastructure.dll
 C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Infrastructure\bin\Debug\net9.0\Cotizacion.Infrastructure.runtimeconfig.json
 C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Infrastructure\obj\Debug\net9.0\Cotizacion.Infrastructure.genruntimeconfig.cache
+C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Infrastructure\obj\Debug\net9.0\Cotizacion.Infrastructure.sourcelink.json

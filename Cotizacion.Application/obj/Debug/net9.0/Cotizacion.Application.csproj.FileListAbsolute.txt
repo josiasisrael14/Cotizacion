@@ -13,3 +13,4 @@ C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Application\obj\Debug\ne
 C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Application\obj\Debug\net9.0\refint\Cotizacion.Application.dll
 C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Application\obj\Debug\net9.0\Cotizacion.Application.pdb
 C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Application\obj\Debug\net9.0\ref\Cotizacion.Application.dll
+C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Application\obj\Debug\net9.0\Cotizacion.Application.sourcelink.json

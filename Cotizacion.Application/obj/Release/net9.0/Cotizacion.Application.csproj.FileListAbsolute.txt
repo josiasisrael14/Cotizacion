@@ -1,0 +1,16 @@
+C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Application\bin\Release\net9.0\Cotizacion.Application.deps.json
+C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Application\bin\Release\net9.0\Cotizacion.Application.dll
+C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Application\bin\Release\net9.0\Cotizacion.Application.pdb
+C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Application\bin\Release\net9.0\Cotizacion.Domain.dll
+C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Application\bin\Release\net9.0\Cotizacion.Domain.pdb
+C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Application\obj\Release\net9.0\Cotizacion.Application.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Application\obj\Release\net9.0\Cotizacion.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Application\obj\Release\net9.0\Cotizacion.Application.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Application\obj\Release\net9.0\Cotizacion.Application.AssemblyInfo.cs
+C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Application\obj\Release\net9.0\Cotizacion.Application.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Application\obj\Release\net9.0\Cotizacion.Application.sourcelink.json
+C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Application\obj\Release\net9.0\Cotizaci.414AEDCF.Up2Date
+C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Application\obj\Release\net9.0\Cotizacion.Application.dll
+C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Application\obj\Release\net9.0\refint\Cotizacion.Application.dll
+C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Application\obj\Release\net9.0\Cotizacion.Application.pdb
+C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Application\obj\Release\net9.0\ref\Cotizacion.Application.dll

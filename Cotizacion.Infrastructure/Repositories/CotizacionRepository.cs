@@ -16,17 +16,23 @@ public class CotizacionRepository : IProformaRepository
 
     public async Task<IEnumerable<Proforma>> GetAllAsync()
     {
-        return await _context.Proformas.ToListAsync();
+        return await _context.Proformas
+                             .Include(p => p.Items)
+                             .ToListAsync();
     }
 
     public async Task<Proforma?> GetByIdAsync(int id)
     {
-        return await _context.Proformas.FindAsync(id);
+        return await _context.Proformas
+                             .Include(p => p.Items)
+                             .FirstOrDefaultAsync(p => p.Id == id);
     }
     public async Task<Proforma> AddAsync(Proforma proforma)
     {
+
         _context.Proformas.Add(proforma);
         await _context.SaveChangesAsync();
+
         return proforma;
     }
 
@@ -43,4 +49,6 @@ public class CotizacionRepository : IProformaRepository
         _context.Proformas.Remove(proforma);
         await _context.SaveChangesAsync();
     }
+
+
 }
