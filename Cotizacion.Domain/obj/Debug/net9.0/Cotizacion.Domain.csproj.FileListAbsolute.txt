@@ -9,3 +9,4 @@ C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Domain\obj\Debug\net9.0\
 C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Domain\obj\Debug\net9.0\refint\Cotizacion.Domain.dll
 C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Domain\obj\Debug\net9.0\Cotizacion.Domain.pdb
 C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Domain\obj\Debug\net9.0\ref\Cotizacion.Domain.dll
+C:\Users\USUARIO\Desktop\cotizacionesBackend\Cotizacion.Domain\obj\Debug\net9.0\Cotizacion.Domain.sourcelink.json

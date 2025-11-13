@@ -1610,7 +1610,10 @@
         },
         "runtime": {
           "bin/placeholder/Cotizacion.Application.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "Cotizacion.Domain/1.0.0": {
         "type": "project",

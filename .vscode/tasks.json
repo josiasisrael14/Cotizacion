@@ -1,0 +1,19 @@
+// tasks.json
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                // 💡 ARGUMENTO DE COMPILACIÓN: Apunta al .csproj del proyecto ejecutable
+                "${workspaceFolder}/Cotizacion/Cotizacion.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}

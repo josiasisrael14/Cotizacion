@@ -36,8 +36,14 @@ namespace Cotizacion.Infrastructure.Migrations
                     b.Property<decimal>("Amount")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<decimal>("Costo")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<string>("Bank")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Cci")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Company")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Currency")
                         .IsRequired()
@@ -47,12 +53,11 @@ namespace Cotizacion.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Description")
+                    b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Email")
-                        .IsRequired()
+                    b.Property<string>("Holder")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("IssuedBy")
@@ -66,8 +71,14 @@ namespace Cotizacion.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Movil")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Note")
                         .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Pay")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Project")
@@ -85,15 +96,56 @@ namespace Cotizacion.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal>("SubTotal")
-                        .HasColumnType("decimal(18,2)");
-
                     b.Property<decimal>("Total")
                         .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
                     b.ToTable("Proformas");
+                });
+
+            modelBuilder.Entity("Cotizacion.Domain.Entities.ProformaItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int?>("Cantidad")
+                        .HasColumnType("int");
+
+                    b.Property<decimal?>("Costo")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("Descripcion")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("ProformaId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal?>("Total")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProformaId");
+
+                    b.ToTable("ProformaItems");
+                });
+
+            modelBuilder.Entity("Cotizacion.Domain.Entities.ProformaItem", b =>
+                {
+                    b.HasOne("Cotizacion.Domain.Entities.Proforma", "Proforma")
+                        .WithMany("Items")
+                        .HasForeignKey("ProformaId");
+
+                    b.Navigation("Proforma");
+                });
+
+            modelBuilder.Entity("Cotizacion.Domain.Entities.Proforma", b =>
+                {
+                    b.Navigation("Items");
                 });
 #pragma warning restore 612, 618
         }

@@ -12,5 +12,6 @@ public class ApplicationDbContext : DbContext
     }
 
     public DbSet<Proforma> Proformas { get; set; }
+    public DbSet<ProformaItem> ProformaItems { get; set; }
 
 }

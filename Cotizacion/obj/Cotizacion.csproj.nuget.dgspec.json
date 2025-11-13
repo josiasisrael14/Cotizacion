@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USUARIO\\Desktop\\cotizacionesBackend\\Cotizacion\\Cotizacion.csproj": {}
+    "C:\\Users\\USUARIO\\Desktop\\cotizacionesBackend\\COTIZACION\\Cotizacion.csproj": {}
   },
   "projects": {
     "C:\\Users\\USUARIO\\Desktop\\cotizacionesBackend\\Cotizacion.Application\\Cotizacion.Application.csproj": {
@@ -59,6 +59,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -201,14 +204,14 @@
         }
       }
     },
-    "C:\\Users\\USUARIO\\Desktop\\cotizacionesBackend\\Cotizacion\\Cotizacion.csproj": {
+    "C:\\Users\\USUARIO\\Desktop\\cotizacionesBackend\\COTIZACION\\Cotizacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\Desktop\\cotizacionesBackend\\Cotizacion\\Cotizacion.csproj",
+        "projectUniqueName": "C:\\Users\\USUARIO\\Desktop\\cotizacionesBackend\\COTIZACION\\Cotizacion.csproj",
         "projectName": "Cotizacion",
-        "projectPath": "C:\\Users\\USUARIO\\Desktop\\cotizacionesBackend\\Cotizacion\\Cotizacion.csproj",
+        "projectPath": "C:\\Users\\USUARIO\\Desktop\\cotizacionesBackend\\COTIZACION\\Cotizacion.csproj",
         "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\Desktop\\cotizacionesBackend\\Cotizacion\\obj\\",
+        "outputPath": "C:\\Users\\USUARIO\\Desktop\\cotizacionesBackend\\COTIZACION\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
